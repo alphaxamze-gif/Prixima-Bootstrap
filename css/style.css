@@ -7,5 +7,50 @@ body{
 }
 
 h1,h2,h3,h4,h5,h6{
-    
+    font-weight: 700 !important;
+    color: #092032;
+}
+
+a{
+    color: #092032;
+    text-decoration: none;
+    transition: all 0.4s ease;
+}
+
+img{
+    width: 100%;
+}
+
+/* Navbar */
+.top-nav{
+    background-color: #ff4d29;
+}
+
+.top-nav p{
+    margin-bottom: 0;
+    display: inline-block;
+    margin-right: 16px;
+    color: #fff;
+}
+
+.top-nav i,
+.top-nav span{
+    vertical-align: middle;
+}
+
+.social-links a{
+    width: 34px;
+    height: 34px;
+    background-color: rgba(255, 255, 255, 0.3);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 28px;
+    border-radius: 100%;
+}
+
+.social-icons a:hover {
+    background-color: #fff;
+    color: #ff4d29;
 }
